@@ -1,0 +1,13 @@
+# Ignore virtual environment
+.venv/
+__pycache__/
+
+# Ignore Jupyter system files
+.ipynb_checkpoints/
+
+# Ignore datasets and heavy media files
+*.mp4
+*.jpg
+*.png
+*.zip
+ff_dataset/
