@@ -11,3 +11,5 @@ __pycache__/
 *.png
 *.zip
 ff_dataset/
+
+.DS_Store
