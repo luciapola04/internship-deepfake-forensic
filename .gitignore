@@ -10,9 +10,11 @@ __pycache__/
 *.jpg
 *.png
 *.zip
-ff_dataset/
+FEI*
+F++*
 
 .DS_Store
 
-FEI*
-F++*
+models
+
+processed*
