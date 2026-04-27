@@ -13,9 +13,7 @@ __pycache__/
 *.csv
 FEI*
 F++*
-
+CelebDF_Test
 .DS_Store
-
 models
-
 processed*
