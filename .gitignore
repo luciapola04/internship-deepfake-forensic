@@ -1,20 +1,10 @@
-# Ignore virtual environment
+# Whitelist: only Jupyter notebooks are tracked, everything else is ignored.
+*
+!*/
+!*.ipynb
+
+# Re-ignore known heavy/system directories even though !*/ allows traversal into them
 .venv/
 __pycache__/
-
-# Ignore Jupyter system files
 .ipynb_checkpoints/
-
-# Ignore datasets and heavy media files
-*.mp4
-*.jpg
-*.png
-*.zip
-*.csv
-FEI*
-F++*
-CelebDF_Test
-Celeb-DF-v3
 .DS_Store
-models
-processed*
