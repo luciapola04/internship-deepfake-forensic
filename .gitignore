@@ -14,6 +14,7 @@ __pycache__/
 FEI*
 F++*
 CelebDF_Test
+Celeb-DF-v3
 .DS_Store
 models
 processed*
