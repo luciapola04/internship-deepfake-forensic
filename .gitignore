@@ -1,7 +1,8 @@
-# Whitelist: only Jupyter notebooks are tracked, everything else is ignored.
+# Whitelist: only Jupyter notebooks and READMEs are tracked, everything else is ignored.
 *
 !*/
 !*.ipynb
+!README.md
 
 # Re-ignore known heavy/system directories even though !*/ allows traversal into them
 .venv/
